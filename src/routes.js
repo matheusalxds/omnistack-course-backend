@@ -9,6 +9,7 @@ const FileController = require('./controllers/FileController');
 const routes = express.Router();
 
 routes.post('/boxes', BoxController.store);
+routes.get('/boxes/:id', BoxController.show);
 /**
  * The front end needs to send an object with a field
  * called 'file' that actually has the file
