@@ -15,5 +15,5 @@ Para criar variáveis de ambiente, clicar em:
 }
 ```
 4. E apertar em **Done**
-5. Depois na url procurar por base_url
+5. Depois na url procurar por **base_url**
 ___
