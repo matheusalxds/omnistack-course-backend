@@ -4,7 +4,7 @@ const path = require('path');
 const cors = require('cors');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 const server = require('http').Server(app);
 const io = require('socket.io')(server);
@@ -35,6 +35,6 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/files', express.static(path.resolve(__dirname, '..', 'tmp')));
 app.use(require('./routes'));
 
-server.listen(3000, () => {
+server.listen(PORT, () => {
   console.log('Running on port: ', PORT);
 });
