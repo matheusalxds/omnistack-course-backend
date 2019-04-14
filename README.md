@@ -17,3 +17,8 @@ Para criar variáveis de ambiente, clicar em:
 4. E apertar em **Done**
 5. Depois na url procurar por **base_url**
 ___
+
+
+### Heroku
+##### Variáveis de ambiente
+URL: https://omnistack-course-backend.herokuapp.com
